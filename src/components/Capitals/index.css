@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #93c5fd;
+  min-height: 100vh;
+}
+.card {
+  height: 250px;
+  width: 550px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.head {
+  font-size: 35px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  text-align: center;
+  margin-top: 50px;
+}
+.drop {
+  width: 200px;
+  height: 30px;
+  margin-left: 100px;
+  margin-right: 10px;
+}
+p {
+  font-weight: 600;
+}
+.drop-card {
+  display: flex;
+
+  align-items: center;
+}
+.para-2 {
+  font-weight: 700;
+  font-size: 26px;
+  margin-left: 100px;
+}
