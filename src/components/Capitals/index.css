@@ -41,3 +41,12 @@ p {
   font-size: 26px;
   margin-left: 100px;
 }
+
+@media screen and (max-width: 768px) {
+  .bg-container {
+    width: 100%;
+  }
+  .card {
+    width: 450px;
+  }
+}
